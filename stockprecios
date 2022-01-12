@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function refreshAppleStock(){
+   fetch("https://api.iextrading.com/1.0/stock/aapl/batch?types=quot\e,news,chart&range=1m&last=10")
+     then(function(response){
+    return response.json();
+}).then(function(data){
+    document.getElementById('my_cell').innerHTML = '$' + data.qu\ote.latestPrice ;
+});
+}
+</script>
+</head>
+<body>
+<div>
+<h2>Apple stock price:</h2>
+<div id="my_cell">
+</div>
+<button id="refresh" onclick="refreshAppleStock()">Refresh</button>
+</div>
+</body>
+</html>
