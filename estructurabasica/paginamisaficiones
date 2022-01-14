@@ -1,0 +1,27 @@
+<html>
+      <head>
+            <title> mi pagia web </title>
+        <head>
+        <body> 
+               <center><h1>mis aficiones</h1></center>
+               <hr>
+                 Sin un orden particular, mis <b>aficiones<//b> son los siguientes:
+                <!—una lista sin orden alguno-->
+                 <ul>
+                               <li> el cine
+                               <li> el deporte
+                                <ul>
+                                         <li> natación
+                                         <li> baloncesto
+                                         </ul>
+                                 <li> la música
+                   </ul>
+                      La música que mas me gusta es <i> (en orden de preferencia): </i>
+                   <!—una lista con un orden -->
+                  <ol>
+                               <li> el rock
+                               <li> el jazz
+                              <li> la música clásica
+                  </ol>
+          </body>
+</html> 
