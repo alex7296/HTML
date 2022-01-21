@@ -1,0 +1,18 @@
+<html>
+    <head>
+         <title>libro de visitas</title>
+     </head>
+     <body>
+             <h2>libro de visitas</h2><p>
+             <form action=”mailto:email”  method=”post” enctype=”text/plain”>
+              Tu nombre:
+              <br><input type=”text” name=”nombre”>
+              <p>escribe tus comentarios<br>
+              <textarea name=”comentarios” rows=”6” cols=”40”>
+               </textarea><p>
+              <input type=”submit” value=”enviar datos”>
+              <input type=”reset” value=”borrar datos”>
+               </form>
+              <p><hr>
+         </body>
+</html>
