@@ -1,0 +1,13 @@
+<html> 
+   <head>
+        <title>ejemplo de color </title>
+
+   </head>
+
+   <body bgcolor=black text=white link=yellow alink=fuchsia vlink=line>
+      <table border=0 cellpadding=5><tr>
+           <p> esto es texto normal y, por lo tanto, aparece en color blanco, </p>
+
+<p><a Href=”:http://www.calamaro.com”> esto es un enlace y, por lo tanto, aparece en color amarillo (a no ser que lo hayas visitado, entonces es color lima) </a></p>
+</body> 
+</html>
