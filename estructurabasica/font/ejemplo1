@@ -1,0 +1,64 @@
+<html> 
+   <head>
+        <title>ejemplo del uso de &lt;font&gt; </title>
+
+   </head>
+
+   <body >
+           <p> ejemplo del uso del atributo <b><code>size</code></b> </p>
+          <table order=0>
+          <tr align=center>
+                <td><Font size=1>1</Font></td>
+                <td><Font size=2>2</Font></td>
+                <td><Font size=3>3</Font></td>
+               <td><Font size=4>4</Font></td>
+                 <td><Font size=5>5</Font></td>
+                  <td><Font size=6>6</Font></td>
+                  <td><Font size=7>7</Font></td>
+              </tr>
+          <tr align=center>
+                 <td>1</td>
+                 <td>2</td>
+                  <td>3</td>
+                  <td>4</td>
+                   <td>5</td>
+                  <td>6</td>
+                   <td>7</td>
+              </tr>
+             </table>
+
+              <table order=0>
+               <tr align=center>
+                   <td><Font size=-2>-2</Font></td>
+                <td><Font size=-1>-1</Font></td>
+               <td><Font size=0>0</Font></td>
+                 <td><Font size=+1>+1</Font></td>
+                  <td><Font size=+2>+2</Font></td>
+                  <td><Font size=+3>+3</Font></td>
+                  <td><Font size=+4>+4</Font></td>
+              </tr>
+          <tr align=center>
+                 <td>1</td>
+                 <td>2</td>
+                  <td>3</td>
+                  <td>4</td>
+                   <td>5</td>
+                  <td>6</td>
+                   <td>7</td>
+              </tr>
+             </table>
+
+             <p> ejemplo del uso del atributo <b><code>color</code></b> </p>
+            <Font face=arial> esto es texto en arial</Font><br>
+            <Font face=times> esto es texto en timesl</Font><br>
+            <Font face=courier> esto es texto en courier</Font><br>
+
+            <p> ejemplo del uso del atributo <b><code>face</code></b> </p>
+            <b><Font color=red>no</Font><Font color=purple>es</Font>
+            <Font color=fuchsia>buena</Font><Font color=green>idea</Font>
+            <Font color=olive>usar</Font><Font color=navy>excesivos</Font>
+            <Font color=blue>colores</Font><Font color=teal>en</Font>
+            <Font color=gray>el</Font><Font color=maroon>texto…</Font></b>
+
+    </body> 
+</html>
