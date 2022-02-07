@@ -1,0 +1,6 @@
+<form action="cgi-bin/micontrol.exe" method="post" enctype="text/plain" name="un ejemplo más">
+ <label> 
+<input type="checkbox" name="email">
+ Le deseamos un feliz año nuevo
+ </label> 
+</form>
