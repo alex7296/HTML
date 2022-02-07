@@ -1,0 +1,13 @@
+<form action="cgi-bin/control.exe" method="post" enctype="text/plain" name="miform"> <button name="boton_1" type="button">
+ <table width="10" cellspacing="0" cellpadding="2" border="1">
+ <tr> 
+<td>uno</td> 
+<td>dos</td> 
+</tr>
+ <tr>
+ <td>tres</td>
+ <td>cuatro</td> 
+</tr>
+ </table>
+ </button>
+ </form>
