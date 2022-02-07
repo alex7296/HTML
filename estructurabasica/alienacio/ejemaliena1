@@ -1,0 +1,20 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>ejemplo de alineado de texto </title> 
+</head> 
+<body
+   <h1>centrado</h1>
+   <p align=center> con las posibilidades …[texto eliminado] </p>
+
+    <h1>jutificado</h1>
+   <p align=justify> con las posibilidades …[texto eliminado] </p>
+
+    <h1>alineado a la izquierda</h1>
+   <p align=left> con las posibilidades …[texto eliminado] </p>
+
+   <h1>alineado a la derecha</h1>
+   <p align=right> con las posibilidades …[texto eliminado] </p>
+
+</body> 
+</html>
