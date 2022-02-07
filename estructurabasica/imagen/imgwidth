@@ -1,0 +1,14 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>uso de width en im$aacute: genes</title> 
+</head> 
+   <body> 
+     
+       <img src=”garfiel-gif” width= 83 align=middle>
+       <img src=”garfiel-gif” width= 130 align=middle>
+        <img src=”garfiel-gif” width= 200 align=middle>
+        <img src=”garfiel-gif” width= 310 align=middle>
+
+</body> 
+</html>
