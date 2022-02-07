@@ -1,0 +1,22 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>uso de align en im$aacute: genes</title> 
+</head> 
+   <body> 
+     <p>  
+       <img src=”garfiel-gif” align=top>
+       Garfiel alineado con el texto porla parte superior
+      </p>
+
+           <p>  
+       <img src=”garfiel-gif” align=middle>
+       Garfiel ceentrado respecto al texto
+      </p>
+
+                 <img src=”garfiel-gif” align=bottom>
+       Garfiel alienado con el texto por la parte inferior
+      </p>
+
+</body> 
+</html>
