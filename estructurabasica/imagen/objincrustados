@@ -1,0 +1,36 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>ejemplo del uso del &lt;embed&gt:</title> 
+</head> 
+<body > 
+    <table border=0>
+      <tr valign=bottom>
+          <td>
+             <embed src=”incrustado.mid” width=320 height=45>
+           </td>
+           <td>
+              <h1>sonido</h1>
+              <b><code>&lt;embed src=”incrustado.mid” width=320 height=45&gt;</code></b>
+
+            </td>
+        </tr>
+         <tr>
+          <tr valign=top>
+             <td>
+                <embed src=incrustado.avi width=320 heigth=240>
+              </td>
+              <td>
+                  <h1>v&iacute;deo</h1>
+                  <b><code>&lt;embed src=”incrustado.avi width=320 heigth=240&gt;</code></b>
+         </td>
+       </tr>
+      <tr valign=top>
+       <td>
+         <h1>realidad virtual</h1>
+          <b><code>&lt:embed src=”incrustado.wrl” width=320 height=240&gt;</code></b>
+         </td>
+        </tr>
+     </table>         
+</body> 
+</html>
