@@ -1,0 +1,60 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+   <title> ejemplo de uso de hojas de estilo</title>
+  </head>
+<!—esta es un hoja de estilo incustrada en el código html-- >
+<style type=text/css>
+   Body {
+      Margin: 2em:
+      Background-colr: lightyellow;
+
+     Colr: black;
+   
+    Font-size: 12 pt:
+    Font-family: aril;
+  
+    Text-align= justify;
+}
+H1  {
+     Color: darkblue;
+  
+    Font-size: 18pt;
+    Font-style; italic;
+
+   Text-lign: right;
+   Text-decoration: underline;
+   Letter-spacing: 8px;
+}
+
+P  {
+   Text-indent: 3em;
+}
+p.figura {
+   font-size: 10pt;
+  font-weight: bold;
+
+  text-indent: 0em;
+  text-align: center;
+  align: center;
+
+  border: solid;
+  border-width: thin;
+  border-colr: black;
+}
+</style>
+<body>
+  <h1> introducci&oacute;n a las hojas de estilo</h1>
+
+   <p>
+
+En el m&oacute;dulo anterior el lector aprendi&oacute; a desarrollar documentos HTML, como recordr&aacute; gran parte de las etiquetas y atributos tenían como &uacute;nica finalidad establecer colores, fuentes y tamaños de letra, estilos de textos… E definitiva, el documento conten&iacute; a la informaci----6oacute;n la estructura de la misma y cuestiones est&eacute;ticas respecto a la visualizaci&oacute;n de dicha informaci&oacute;n.
+    </p>
+
+    <p class=figura>figura 10-1</p>
+  
+  <img src=”../../html/cap8/Garfield.gif”>
+     
+</body> 
+</html>
+
