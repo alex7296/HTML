@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+   <title> ejemplo2 de uso de hojas de estilo</title>
+  </head>
+<!—esta es un hoja de estilo incustrada en el código html-- >
+<style type=text/css>
+   Body {
+      Background-color: red;
+      Color;black;
+
+  
+    }
+H1  {
+     Background-color: ligtgrey;
+     Color: darkgray;
+  
+
+  
+}
+</style>
+<body>
+     Este es texto que aparece en el cuerpo y que debe salir de color negro
+
+  <h1> este esun t&iacute;tulo de nivel , deber&iacute; a tener fondo gris claro y texto gris oscuro 1</h1>
+
+   
+     
+</body> 
+</html>
