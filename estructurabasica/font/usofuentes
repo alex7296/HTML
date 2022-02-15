@@ -1,0 +1,106 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+   <title> ejemplo es de uso de fuentes</title>
+  </head>
+<!—esta es un hoja de estilo incustrada en el código html-- >
+
+<style type=text/css>
+   
+Div.arial {font-family: arial;}
+Div.courier {font-family: courier;}
+Div.times {font-family: times;}
+
+Div.snormal {font-style: normal;}
+Div.sitalic {font-style: italic;}
+Div.soblique {font-style: oblique;}
+
+Div.vnormal {font-variant: normal;}
+Div.vsmall {font-variant: small;}
+
+Div.w100 {font-weight: 100;}
+Div.w200 {font-weight: 200;}
+Div.w300 {font-weight: 300;}
+Div.w400 {font-weight: 400;}
+Div.w500 {font-weight: 500;}
+Div.w600 {font-weight: 600;}
+Div.w700 {font-weight: 700;}
+Div.w800 {font-weight: 800;}
+Div.w900 {font-weight: 900;}
+
+Div.s10pt {font-size: 10pt;}
+Div.s20pt {font-weight:20pt;}
+Div.s30pt {font-weight:30pt;}
+
+Div.s10px {font-size: 10px;}
+Div.s20px {font-weight:20px;}
+Div.s30px {font-weight:30px;}
+
+Div.s2em {font-size: 2em;}
+Div.s4em {font-size: 4em;}
+Div.s6em {font-size: 6em;}
+
+</style>
+
+</body> 
+<p> 
+<b> ejemplo del uso de <code>Font-family</code></b>
+<table><tr>
+<td><div class=arial>arial ABCD abcd 1234</div></td>
+<td><div class=courier>courier ABCD abcd 1234</div></td>
+<td><div class=times>times ABCD abcd 1234</div></td>
+</table></tr>
+</p>
+<p>
+<b> ejemplo del uso de <code>font-style</code></b>
+<table><tr>
+<td><div classs=normal>texto normal</div></td>
+<td><div class=sitalic>texto italic</div></td>
+<td><div class=soblique>texto oblique</div></td>
+</table></tr>
+</p>
+<p>
+<b> ejemplo del uso de <code>font-variant</code></b>
+<table><tr>
+<td><div classs=vnormal>texto normal</div></td>
+<td><div class=vsmall>texto small</div></td>
+</table></tr>
+</p>
+<p>
+<b> ejemplo del uso de <code>font-weigth</code></b>
+<table><tr>
+<td><div classs=w100>100 </div></td>
+<td><div classs=w200>200 </div></td>
+<td><div classs=w300>300 </div></td>
+<td><div classs=w400>400 </div></td>
+<td><div classs=w500>500 </div></td>
+<td><div classs=w600>600 </div></td>
+<td><div classs=w700>700 </div></td>
+<td><div classs=w800>800 </div></td>
+<td><div classs=w900>900 </div></td>
+</table></tr>
+</p>
+<p>
+<b> ejemplo del uso de <code>font-size</code></b>
+<table>
+<tr valign=top>
+<td><i> en puntos  <i></td>
+<td><div classs=s10pt>texto 10pt </div></td>
+<td><div classs=s20pt>texto 20pt </div></td>
+<td><div classs=s30pt>texto 30pt </div></td>
+</tr>
+<tr valign=top>
+<td><i> en pixels  <i></td>
+<td><div classs=s10px>texto 10px </div></td>
+<td><div classs=s20px>texto 20px </div></td>
+<td><div classs=s30px>texto 30px </div></td>
+</tr>
+<tr valign=top>
+<td><i> en unidades relativas  a la fuente actual <i></td>
+<td><div classs=s2emx>texto 2em </div></td>
+<td><div classs=s4emx>texto 4em </div></td>
+<td><div classs=s6em>texto  6em </div></td>
+</tr>
+</table>
+</body>
+</html>
