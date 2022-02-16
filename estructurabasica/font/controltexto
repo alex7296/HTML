@@ -1,0 +1,69 @@
+<html>
+<head>
+<title> ejemplo de control de texto</title>
+<head>
+<1—esta es una hoja de estilo incrustada en el código HTML--> 
+
+<style type=text/css>
+
+<style type=text/css>
+div.left  {text-align: left;}
+div.center  {text-align: center;}
+div.right  {text-align: right;}
+div.justify  {text-align: justify;}
+
+div.i1cm  {text-indent: 1cm;}
+div.i5em  {text-indent: 5cm;}
+div.i15px  {text-indent: 15px;}
+</style>
+
+<body>
+<p>
+
+<b> alineado a la izquierda</b><br>
+<div class=left>
+   En un lugar de la mancha cuyo nombre no quiero acordarme, no ha mucho que viv&iacute: a un hidalgo de los de lanza en astilleto, adarga, antigua, roc&iacute;n flaco y galgo corredor.
+</div>
+</p>
+<p>
+<b> centrado </b><br>
+<div class=center>
+En un lugar de la mancha cuyo nombre no quiero acordarme, no ha mucho que viv&iacute: a un hidalgo de los de lanza en astilleto, adarga, antigua, roc&iacute;n flaco y galgo corredor.
+</div>
+</p>
+<p>
+<b> alineado a la derecha </b><br>
+<div class=right>
+En un lugar de la mancha cuyo nombre no quiero acordarme, no ha mucho que viv&iacute: a un hidalgo de los de lanza en astilleto, adarga, antigua, roc&iacute;n flaco y galgo corredor.
+</div>
+</p>
+<p>
+<b> justificado </b><br>
+<div class=justify>
+En un lugar de la mancha cuyo nombre no quiero acordarme, no ha mucho que viv&iacute: a un hidalgo de los de lanza en astilleto, adarga, antigua, roc&iacute;n flaco y galgo corredor.
+</div>
+</p>
+<p>
+<b> sangr&iacute;a; 1 cm </b
+<div class=i1cm>
+En un lugar de la mancha cuyo nombre no quiero acordarme, no ha mucho que viv&iacute: a un hidalgo de los de lanza en astilleto, adarga, antigua, roc&iacute;n flaco y galgo corredor.
+</div>
+</p>
+
+<p>
+<b> sangr&iacute;a; 5 em </b
+<div class=i5em>
+En un lugar de la mancha cuyo nombre no quiero acordarme, no ha mucho que viv&iacute: a un hidalgo de los de lanza en astilleto, adarga, antigua, roc&iacute;n flaco y galgo corredor.
+</div>
+</p>
+
+<p>
+<b> sangr&iacute;a; 15 px </b
+<div class=i15px>
+En un lugar de la mancha cuyo nombre no quiero acordarme, no ha mucho que viv&iacute: a un hidalgo de los de lanza en astilleto, adarga, antigua, roc&iacute;n flaco y galgo corredor.
+</div>
+</p>
+
+
+</body>
+</html>
