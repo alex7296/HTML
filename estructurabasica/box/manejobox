@@ -1,0 +1,68 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+   <title> ejemplo del manejo de cajas </title>
+  </head>
+<!—esta es un hoja de estilo incustrada en el código html-- >
+
+<style type=text/css>
+   table.m0 {background color lightblue ; margin: 0px;}
+   table.m10 {background color lightblue ; margin: 10px;}
+   table.m20 {background color lightblue ; margin: 20px;}
+
+   table.p0 {background color lightblue ; padding: 0px;}
+   table.p10 {background color lightblue ; padding: 10px;}
+   table.p20 {background color lightblue ; padding: 20px;}
+
+   table.bthin {border-width:thin;}
+   table.bmedium {border-width:medium;} 
+   table.bthick {border-width:thick;}
+
+  table.bred {border-color red ; border-width:thick ;}
+  table.bgreen {border-color green ; border-width:thick ;}
+  table.bblue {border-color blue ; border-width:thick ;}
+
+</style>
+
+ <body>
+   <table width=100%><tr>
+     <tr>
+        <td>
+
+        
+      </td>
+  </tr></table>
+  <p><b> uso de m&aacute;rgenes (el margen es transparente) </b></p>
+  <table class=m0 width=75%><tr><td>distancia de margen 0px</td></tr></table>
+  <table class=m10 width=75%><tr><td>distancia de margen 10px</td></tr></table>
+  <table class=m20 width=75%><tr><td>distancia de margen 20px</td></tr></table>
+</td>
+<td>
+<p><b>uso de <i>padding</i> (el <i>padding</i> tiene color) </b></p>
+<table class=p0 width=75%><tr><td>distancia de <i>padding</i>
+0px</td></tr></table>
+<table class=p10 width=75%><tr><td>distancia de <i>padding</i>
+10px</td></tr></table>
+<table class=p20 width=75%><tr><td>distancia de <i>padding</i>
+20px</td></tr></table>
+</td>
+</tr>
+<tr>
+<td>
+<table border class=bthin width=75%><tr><td> borde <i>thin</i>
+</td></tr></table>
+<table border class=bmedium width=75%><tr><td> borde <i>medium</i>
+</td></tr></table>
+<table border class=bthick width=75%><tr><td> borde <i>thick</i>
+</td></tr></table>
+</td>
+<td>
+<p><b>uso de color del borde </b></p>
+<table border class=bred width=75%><tr><td> borde rojo td></tr></table>
+<table border class=bgreen width=75%><tr><td> borde verde</td></tr></table>
+<table border class=bblue width=75%><tr><td> borde azul</td></tr></table>
+</td>
+<td>
+</table>
+</body> 
+</html>
