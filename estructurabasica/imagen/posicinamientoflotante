@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+   <title> ejemplo de posicionamiento flotante  </title>
+  </head>
+<!—esta es un hoja de estilo incustrada en el código html-- >
+
+<style type=text/css>
+   
+img.left (float: left;)
+img.right (float: right;)
+
+body, p, img (margin: 2em;)
+
+body (text-align;justify;)
+
+
+</style>
+
+ <body>
+   <img class=left src=”../../html/cap8/garfielgif”>
+   <img class=right src=”../../html/cap8/garfielgif”>
+Soy todo Corazon y eso se hace mal
+…[texto eliminado]
+No renuncies por favor
+El amor equivocado
+No te olvides tan pronto de mi
+-estribillo-
+</body> 
+</html>
