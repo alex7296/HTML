@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+   <title> ejemplo del uso de capas</title>
+  </head>
+<!—esta es un hoja de estilo incustrada en el código html-- >
+
+<style type=text/css>
+   
+P  {text-align: justify; }
+img.float (float: rleft;)
+
+#uno {position: absolute; top: 50px; left 50px; z-index: 1;}
+#dos {position: absolute; top: 150px; left 150px; z-index: 2;}
+#tres {position: absolute; top: 250px; left 250px; z-index: 1;}
+
+
+</style>
+
+ <body>
+   <div id=uno>
+   <img class=float src=”../../html/cap8/garfielgif” border=2>
+   <p>
+Soy todo Corazon y eso se hace mal
+…[texto eliminado]
+No renuncies por favor
+El amor equivocado
+No te olvides tan pronto de mi
+estribillo
+    </p>
+- -
+</div>
+   <div id=dos <img class=float src=”../../html/cap8/garfielgif” border=2></div>
+   <div id=tres <img class=float src=”../../html/cap8/garfielgif” border=2></div>
+
+</body> 
+</html>
