@@ -1,0 +1,19 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+   <title> ejemplo del uso del clip</title>
+  </head>
+<!—esta es un hoja de estilo incustrada en el código html-- >
+
+<style type=text/css>
+   
+#color {position: absolute; top: 50px; left 50px; ; }
+#gris {position: absolute; top: 50px; left 50px; z-; clip:rect(30px, 250px,120px, 60px);}
+</style>
+
+ <body>
+    <div id=color <img class=float src=”../../html/cap8/garfielgif” ></div>
+   <div id= gris <img class=float src=”garfiel-girs.gif”></div>
+   <div id=tres <img class=float src=”../../html/cap8/garfielgif” 
+</body> 
+</html>
