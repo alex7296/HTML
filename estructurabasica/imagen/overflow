@@ -1,0 +1,28 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+   <title> ejemplo del uso de overflow</title>
+  </head>
+<!—esta es un hoja de estilo incustrada en el código html-- >
+
+<style type=text/css>
+   
+P  {text-align: justify; }
+img.float (float: rleft;)
+
+#uno {position: absolute; top: 50px; left 50px; ; background color lightblue; width: 320px; height: 50px; overflow: auto; }
+#dos {position: absolute; top: 150px; left 150px; z-; background color lightblue; width: 320px; height: 50px; overflow: hidden;}
+#tres {position: absolute; top: 250px; left 250px; ; background color lightblue; width: 320px; height: 50px; overflow: scroll;}
+#cuatro {position: absolute; top: 250px; left 250px; ; background color lightblue; width: 320px; height: 50px; overflow: visible;}
+
+
+</style>
+
+ <body>
+    <div id=uno <img class=float src=”../../html/cap8/garfielgif” border=2></div>
+   <div id=dos <img class=float src=”../../html/cap8/garfielgif” border=2></div>
+   <div id=tres <img class=float src=”../../html/cap8/garfielgif” border=2></div>
+div id=cuatro <img class=float src=”../../html/cap8/garfielgif” border=2></div>
+
+</body> 
+</html>
