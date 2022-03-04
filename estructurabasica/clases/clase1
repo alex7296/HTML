@@ -1,0 +1,81 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+   <title> ejemplo del uso de clases</title>
+  </head>
+<!—esta es un hoja de estilo incustrada en el código html-- >
+
+<style type=text/css>
+   
+   Body {
+        Background-color: white;
+        Color: black;
+        Margin-top: 2.5cm;
+        Margin-left: 2cm;
+        Margin-right: 2cm;
+       }
+
+   H1 {
+        Text-align: right;
+        Text-decoration: underline;
+        Font-size: 14pt;
+        Font-family: arial;
+        Font-weight: bold;
+       }
+
+   H2 {
+        Text-align: left;
+        Font-size: 12pt;
+        Font-style: italic;
+        Font-weight: bold;
+       }
+     
+   H3 {
+        Text-align: left;
+        Font-size: 11pt;
+        Font-family: arial;
+        Font-weight: bold;
+       }
+    p.estilo1 {
+       text-align; justify;
+       text-indent: 1.5cm;
+       font-size: 10 pt;
+       font-family: arial;
+
+     p.codigo {
+        Text-align: center;
+        Font-size: 9pt;
+        Font-family: courier;
+        Font-weight: bold;
+    }
+
+</style>
+
+ <body>
+    
+    <h1>conceptos avanzados</h1>
+ 
+    <p class=estilo1>
+       Al igual que en la primera parte…[texto eliminado]
+     </p>    
+
+     <h2>utilizaci&oacute;n de clase de identificadores</h2>
+ 
+    <p class=estilo1>
+       En realidad este tema…[texto eliminado]
+     </p>    
+
+
+     <h3>clases</h3>
+ 
+    <p class=estilo1>
+       En <i>CSS</i>…[texto eliminado]
+     </p>  
+
+     <p class=codigo>
+       elemento.clase {regla1;…reglaN;}
+     </p>    
+  
+
+</body> 
+</html>
