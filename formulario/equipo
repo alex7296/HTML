@@ -1,0 +1,13 @@
+equipo.htm
+<html>
+<title>Equipo Favorito</title>
+<body>
+<form method=post ACTION=”equipo.php”>
+Cual es tu equipo de fútbol favorito ?
+<input name=”equipo” type “TEXT”>
+<br>
+<br>
+<input type=submit>
+</form>
+</body>
+<html>
