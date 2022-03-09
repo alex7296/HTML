@@ -1,0 +1,30 @@
+checkboxes.htm
+<HTML>
+<HEAD></HEAD>
+<BODY>
+<FORM METHOD=POST ACTION=”checkboxes.php”>
+Qué haces en cuanto te levantas?<br><br>
+Lavarme la cara<INPUT NAME=”sel1” TYPE=”Checkbox”
+VALUE=”Lavarse la Cara”><BR>
+Asearse la boca<INPUT NAME=”sel2” TYPE=”Checkbox”
+VALUE=”Asearse los dientes”><BR>
+Desayunar<INPUT NAME=”sel3” TYPE=”Checkbox” VALUE=”Desayunar”
+><BR>
+<BR>
+<INPUT TYPE=SUBMIT>
+</FORM>
+</BODY>
+</HTML>
+checkboxes.php
+<html>
+<body>
+<?php
+if (isset($sel1))
+Echo “$sel1 <br>”;
+if (isset($sel2))
+Echo “$sel2 <br>”;
+if (isset($sel3))
+Echo “$sel3 <br>”;
+?>
+</body>
+</html>
