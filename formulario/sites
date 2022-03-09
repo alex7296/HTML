@@ -1,0 +1,27 @@
+sites.htm
+<html>
+<title>Web Sites Favoritos</title>
+<body>
+<form method=POST ACTION=”sites.php”>
+Mencióname algunos de tus WebSites Favoritos:
+<br>
+<textarea name=”websites” cols=”50” rows=”5”>
+http://
+http://
+http://
+http://
+</textarea>
+<br>
+<br>
+<input type=submit>
+</form>
+</body>
+<html>
+sites.php
+<html>
+<body>
+Tus webs favoritos son:<br>
+<?php Echo “<h3><B>$websites</B></h3>”; ?>
+</body>
+</html>
+
