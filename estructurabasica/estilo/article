@@ -1,0 +1,14 @@
+<html>
+<head>
+<style>
+article { display: block; border: 1px solid red }
+</style>
+<script>document.createElement("article");</script>
+</head>
+<body>
+<article>
+<h1>Welcome to Initech</h1>
+<p>This is your <span>first day</span>.</p>
+</article>
+</body>
+</html>
