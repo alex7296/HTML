@@ -1,0 +1,30 @@
+<HTML>
+<HEAD></HEAD>
+<BODY>
+<FORM METHOD=GET ACTION=”lista.php”>
+Elije la computadora a comprar
+<BR>
+<BR>
+<SELECT NAME=”compu”>
+<OPTION>Pentium</OPTION>
+<OPTION>Celeron</OPTION>
+<OPTION>K6</OPTION>
+<OPTION>MAC</OPTION>
+</SELECT>
+<BR>
+<BR>
+Selecciona los dispositivos de la computadora?
+<BR>
+<BR>
+<SELECT NAME=”dispo[]” MULTIPLE>
+<OPTION>KIT MULTIMEDIA</OPTION>
+<OPTION>QUEMADORA</OPTION>
+<OPTION>WEB CAM</OPTION>
+<OPTION>MICROFONO</OPTION>
+</SELECT>
+<BR>
+<BR>
+<INPUT TYPE=SUBMIT>
+</FORM>
+</BODY>
+</HTML>
